@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&display=swap');
+
+$header-font: 'Anton', sans-serif;
+$text-font: 'Roboto', sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  background: url('./assets/back-pattern.png') repeat;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #fff;
+  border-left: 0.4rem solid #2b73b9;
+  border-right: 0.4rem solid #ffcb05;
+  padding: 0 1.5rem 5rem 1.5rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h2 {
+  font-family: $header-font;
+}
+
+h3,
+p,
+span {
+  font-family: $text-font;
+}
+
+// Types Color
+.grass {
+  color: #fff;
+  background: #00a000;
+}
+
+.poison {
+  color: #fff;
+  background: #b70df2;
+}
+
+.bug {
+  color: #fff;
+  background: #6b8e23;
+}
+
+.water {
+  color: #fff;
+  background: #0ce2ff;
+}
+
+.fire {
+  color: #fff;
+  background: #f27d0c;
+}
+
+.flying {
+  color: #fff;
+  background: #0cf27d;
+}
+
+.normal {
+  color: #fff;
+  background: #757676;
+}
+
+.ground {
+  color: #fff;
+  background: #8c3b0c;
+}
+
+.electric {
+  background: #ffff33;
+}
+
+.fairy {
+  background: pink;
+}
+
+.fighting {
+  color: #fff;
+  background: #d56723;
+}
+
+.rock {
+  color: #fff;
+  background: #654321;
+}

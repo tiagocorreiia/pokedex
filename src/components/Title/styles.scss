@@ -1,0 +1,39 @@
+.title {
+  padding: 2.5rem 0;
+
+  .flex-container {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 5rem;
+    text-transform: uppercase;
+
+    @media (max-width: 620px) {
+      flex: 0 0 100%;
+    }
+  }
+
+  button {
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0.4rem solid transparent;
+    height: 3rem;
+    padding: 0 1rem !important;
+    transition: all 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+      background: #ffcb05;
+      border: 4px solid #2b73b9;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transform: translateY(-3px);
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
